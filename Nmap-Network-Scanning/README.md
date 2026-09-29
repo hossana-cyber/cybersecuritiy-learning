@@ -228,12 +228,15 @@ Practical evidence from the assessment is available in the `screenshots` directo
 
 The screenshots document:
 
-1. Basic Nmap scanning
-2. Network discovery
-3. Open-port enumeration
-4. Service and version detection
-5. Vulnerability verification
-6. Successful exploitation in the authorized lab
+1. [Basic Nmap Scan](screenshots/1-nmap-basic-scan.png)
+2. [Network Discovery](screenshots/2-network-discovery.png)
+3. [Basic Port Scan](screenshots/3-nmap-basic-scan.png)
+4. [Service & Version Detection](screenshots/4-service-version-scan.png)
+5. [Vulnerability Assessment](screenshots/5-vulnerability-assessment.png)
+6. [Vulnerability Assessment](screenshots/6-vulnerability-assessment.png)
+7. [Exploitation](screenshots/7-exploitation.png)
+8. [Exploitation](screenshots/8-exploitation.png)
+9. [Exploitation](screenshots/9-exploitation.png)
 
 ---
 
