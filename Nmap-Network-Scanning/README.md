@@ -233,10 +233,10 @@ The screenshots document:
 3. [Basic Port Scan](screenshots/3-nmap-basic-scan.png)
 4. [Service & Version Detection](screenshots/4-service-version-scan.png)
 5. [Vulnerability Assessment](screenshots/5-vulnerability-assessment.png)
-6. [Vulnerability Assessment2](screenshots/6-vulnerability-assessment.png)
-7. [Exploitation](screenshots/7-exploitation.png)
-8. [Exploitation2](screenshots/8-exploitation.png)
-9. [Exploitation3](screenshots/9-exploitation.png)
+6. [Vulnerability Assessment2](screenshots/6-msfconsole.png)
+7. [Exploitation](screenshots/7-msfconsole.png)
+8. [Exploitation2](screenshots/8-msfconsole.png)
+9. [Exploitation3](screenshots/9-msfconsole.png)
 
 ---
 
