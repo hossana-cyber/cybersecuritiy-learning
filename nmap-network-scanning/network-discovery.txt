@@ -1,0 +1,28 @@
+NETWORK DISCOVERY
+
+Objective:
+Determine whether the authorized lab target is active and reachable on the network.
+
+Target:
+192.168.195.131
+
+Command:
+sudo nmap -sn 192.168.195.131
+
+Nmap Output:
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-09-29 11:01 EDT
+Nmap scan report for 192.168.195.131
+Host is up (0.00042s latency).
+MAC Address: 00:0C:29:7C:C0:2A (VMware)
+Nmap done: 1 IP address (1 host up) scanned in 0.18 seconds
+
+Findings:
+- The target host is active and reachable.
+- The host responded with approximately 0.42 ms latency.
+- The MAC address was identified.
+- The MAC address was associated with VMware.
+- One host was scanned and one host was found to be up.
+
+Security Observation:
+Host discovery confirms that the target is active, but it does not identify which network services or ports are exposed. Further authorized scanning is required for service enumeration.
