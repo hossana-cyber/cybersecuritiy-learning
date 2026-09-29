@@ -1,0 +1,36 @@
+REMEDIATION
+
+Vulnerability:
+vsFTPd 2.3.4 Backdoor
+
+CVE:
+CVE-2011-2523
+
+Affected Service:
+FTP (21/tcp)
+
+Finding:
+
+The assessment confirmed that the target was running vsFTPd 2.3.4 and was vulnerable to the known backdoor vulnerability. Exploitation resulted in a root-level command shell on the laboratory target.
+
+Recommended Remediation:
+
+1. Remove the vulnerable version of vsFTPd.
+
+2. Upgrade the FTP service to a secure and supported version.
+
+3. If FTP is not required, disable and remove the service completely.
+
+4. Restrict access to FTP services using firewall rules and network segmentation.
+
+5. Avoid exposing unnecessary services to untrusted networks.
+
+6. Regularly scan systems for outdated software and known vulnerabilities.
+
+7. Monitor authentication and network activity for suspicious connections.
+
+ETHICAL CONSIDERATIONS:
+
+All testing documented in this project was performed against an intentionally vulnerable laboratory machine that I own or have explicit permission to test.
+
+The activities were conducted for educational and authorized security testing purposes only.
