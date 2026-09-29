@@ -1,0 +1,12 @@
+Command:
+ip addr
+
+found Kali IP:
+192.168.195.136/24
+
+nmap terget:1
+92.168.195.136/24
+
+
+Lab Target:
+192.168.195.131
